@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    
+    <form id ="formCliente" action="" method="POST">
+        <p>
+        <label for="nome">Nome</label>
+        <input type ="text" name="nome" id="nomeCliente">
+        </p>
+        
+        <p>
+        <label for="idade">Idade</label>
+        <input type ="number" name="idade" id="idadeCliente">
+        </p>
+        
+        <button type="button" onclick="cadastrar()">Salvar</button> 
+    </form>
+    
+    <p>
+    <table >
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Idade</td>
+            </tr>
+        </thead>
+        <tbody id="tabelaClientes">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    </p>
+    <script src = "index.js"></script>
+    
+</body>
+</html>
